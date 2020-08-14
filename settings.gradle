@@ -1,0 +1,2 @@
+rootProject.name='BisheshStepCounter'
+include ':app'

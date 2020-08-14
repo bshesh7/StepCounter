@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="121dp"
+        android:layout_height="59dp"
+        android:text="Steps"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_steps"
+        android:layout_width="180dp"
+        android:layout_height="76dp"
+        android:text="0"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/tv_steps_yesterday"
+        android:layout_width="180dp"
+        android:layout_height="76dp"
+        android:text="0"
+        android:textSize="30sp" />
+</LinearLayout>
